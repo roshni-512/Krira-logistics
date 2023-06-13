@@ -28,7 +28,8 @@ export default function Products() {
     <div id='ab'>
       <div className="container">
         <div className="row d-flex justify-content-between">
-          <div className="col-12 col-md-5 mt-5 mb-5">
+          <div className="col-12 col-md-5 mt-5 mb-5" data-aos="fade-down"
+     data-aos-easing="linear">
             <p
               style={{
                 fontFamily: "Poppins",
@@ -87,6 +88,8 @@ export default function Products() {
           <div
             className="col-12 col-md-5 mt-5 mb-5 p-5"
             style={{ backgroundColor: " #3C3A3A" }}
+            data-aos="fade-right"
+     data-aos-easing="linear"
           >
             <p
               style={{

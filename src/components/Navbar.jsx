@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+
 export default function Navbar() {
   return (
     <div style={{  backgroundColor:' #3C3A3A'}}>
@@ -10,7 +10,7 @@ export default function Navbar() {
         </div>
         <div className="col-sm-3 col-6 mt-3 col-lg-3 d-flex justify-content-end ">  
             
-        <Button variant='light' className='mx-5 mb-3 ' style={{width:'100%',padding:'10px',border:'none'}}  id='btn'>Enquiry</Button>
+        <a href='#ab'  className='mx-5 mb-3 text-center' style={{width:'100%',padding:'10px',marginLeft:'20px',backgroundColor:'white',color:'black',borderRadius:'5px',textDecoration:'none',scrollBehavior:'smooth'}}  id='btn'>Enquiry</a>
              </div>
       </div>
        </div>

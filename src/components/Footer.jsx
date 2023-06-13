@@ -6,6 +6,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import CopyrightIcon from '@mui/icons-material/Copyright';
+
 export default function Footer() {
   return (
         <div style={{backgroundColor:' #3C3A3A'}}>

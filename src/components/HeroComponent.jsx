@@ -1,11 +1,15 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import 'animate.css';
+
 export default function HeroComponent() {
   return (
     <div>
       <div className="container">
         <div className="row d-flex justify-content-between">
-          <div className="col-12 col-md-5 mt-5 mb-5">
+          <div className="col-12 col-md-5 mt-5 mb-5 " data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
             <p
               style={{
                 fontFamily: "Poppins",
@@ -46,17 +50,19 @@ export default function HeroComponent() {
               Get Started
             </Button>
           </div>
-          <div className="col-12 col-md-5  mt-5 mb-5">
+          <div className="col-12 col-md-5  mt-5 mb-5  " data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"
+    >
             <div style={{position:'relative'}}>
             <div>
               <img
                 src={"./images/heroimage.png"}
                 style={{ width: "100%", float: "left",height:'450px' }}
-                className="w-sm-100"
+                className="w-sm-80"
                 alt=""
               />
             </div>
-            <div className="row d-flex " style={{position:'absolute',top:'360px' ,left:'80px',width:'75%',height:'130px',backgroundColor:'white',border:'1px #CFCFCF solid',borderRadius:'20px',boxShadow:'10px solid black'}} >
+            <div className="row d-flex p-2" style={{position:'absolute',top:'360px' ,left:'80px',width:'75%',height:'155px',backgroundColor:'white',border:'1px #CFCFCF solid',borderRadius:'20px',boxShadow:'10px solid black'}} >
                  <div className="col-4">
                     <div style={{alignItems:'left'}}>
                         <h4 style={{borderBottom:'1px solid black'}} className="pb-0 pt-2" >980K+</h4>

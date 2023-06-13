@@ -1,16 +1,45 @@
 import React from 'react'
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 export default function Advantages() {
   return (
-    <div>
-        <div className="container">
-            <div className="row">
-       <div className="d-none d-xl-block"><img src={"./images/advanatges main file.png"} style={{ width: '100%', float: 'left' }}  alt='' />
+   <div className='container mt-5 mb-5' style={{position:'relative',textAlign:'center'}}  >
+     <div className='d-none d-xl-block 'data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+    <img src={"./images/spider.png"} style={{ width: '30%',height:'500px' }}  alt='' />
+    
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'-20px',left:'16px'}}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'100px',left:'-20px'}}><AccountBalanceIcon style={{width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'220px',left:'-50px'}}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'345px',left:'-20px'}}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'465px',left:'16px'}}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'-20px',right:'16px'}}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'100px',right:'-20px'}}><AccountBalanceIcon style={{width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'220px',right:'-50px'}}><AccountBalanceIcon style={{width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'345px',right:'-20px'}}><AccountBalanceIcon style={{width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       <div className="p-3" style={{width:'40%',border:'1px solid black',position:'absolute',backgroundColor:'whitesmoke' ,top:'465px',right:'16px'}}><AccountBalanceIcon style={{width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p className='mx-auto ' style={{fontWeight:'900',marginLeft:'0px'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics services</p></div>
+       
+       </div>
+       <div className="row d-xl-none d-md-block d-sm-block" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">  
+       <div className="col-12"> <div className="p-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics </p></div></div>
+       <div className="col-12"> <div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'right'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics </p></div></div>
+       <div className="col-12"><div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics</p></div></div>
+       <div className="col-12"><div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'right'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics</p></div></div>
+       <div className="col-12"><div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics </p></div></div>
+       <div className="col-12"><div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'right'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics </p></div></div>
+       <div className="col-12"><div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics </p></div></div>
+       <div className="col-12"><div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'right'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics </p></div></div>
+       <div className="col-12"><div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'left'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics </p></div></div>
+       <div className="col-12"><div className="p-3 mt-3" style={{border:'1px solid black',backgroundColor:'whitesmoke' }}><AccountBalanceIcon style={{ width:'50px',height:'50px',padding:'10px',backgroundColor:'black',color:'white',float:'right'}}/><p  style={{fontWeight:'900'}}>AI Powered Coriuer Section</p><p style={{lineHeight:'1px',fontSize:'12px'}}>your trusted choice for top-notch shipping and logistics </p></div></div>
+       
+       
+       
+       </div>
+     
+
+    
+   
     </div>
-    <div className="row">
-       <div className="  d-xl-none col-md-5"><img src={"./images/advantegsmob.png"} style={{ width: '100%', float: 'left' }}  alt='' /></div>
-    </div>
-        </div>
-        </div>
-    </div>
+
   )
-}
+} 
