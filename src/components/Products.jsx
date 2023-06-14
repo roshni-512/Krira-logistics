@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import JoinInnerOutlinedIcon from '@mui/icons-material/JoinInnerOutlined';
 
 export default function Products() {
 
@@ -28,14 +29,14 @@ export default function Products() {
     <div id='ab'>
       <div className="container">
         <div className="row d-flex justify-content-between">
-          <div className="col-12 col-md-5 mt-5 mb-5" data-aos="fade-down"
-     data-aos-easing="linear">
+          <div className="col-12 col-md-5 mt-5 mb-5" data-aos="fade-right">
             <p
               style={{
                 fontFamily: "Poppins",
                 fontSize: "80px",
                 lineHeight: "90px",
-                marginTop:'35px'
+                marginTop:'35px',
+                color:'#10265f'
               }}
             >
               Our Products
@@ -43,34 +44,33 @@ export default function Products() {
             <Slider {...settings} ref={sliderRef}>
             <div className="card pb-3" style={{width: '100%'}}>
   <div className="card-body">
-    <h5 className="card-title"><img src={"./images/productimage.png"} style={{ width: '10%', float: 'left' }}  alt='' /></h5>
+    <h5 className="card-title">< JoinInnerOutlinedIcon style={{ width: '50px',height:'50px',borderRadius:'9px', float: 'left',backgroundColor:'#10265f',color:'white'}}  alt=''className="p-2"/></h5>
     <div  style={{float:'left'}}>
-    <spam className=''style={{fontFamily:'Poppins',fontSize:'30px',lineHeight:'90px'}}>Top Team</spam>
+    <spam className=''style={{fontFamily:'Poppins',fontSize:'30px',lineHeight:'90px',color:'#10265f'}}>Top Team</spam>
     <p className=''style={{fontFamily:'Poppins',fontSize:'20px',lineHeight:'33px',fontWeight:200, letterSpacing:'2%'}}>Your trusted choice for top-notch shipping and logistics services, delivering excellence and exceeding expectations.</p>
-    <span>Know More<KeyboardDoubleArrowRightIcon/></span>
+    <span style={{color:'#10265f'}}>Know More<KeyboardDoubleArrowRightIcon /></span>
     </div>
     </div>
        </div>
        <div className="card pb-3" style={{width: '100%'}}>
   <div className="card-body">
-    <h5 className="card-title"><img src={"./images/productimage.png"} style={{ width: '10%', float: 'left' }}  alt='' /></h5>
+    <h5 className="card-title">< JoinInnerOutlinedIcon style={{ width: '50px',height:'50px',borderRadius:'9px', float: 'left',backgroundColor:'#10265f',color:'white'}}  alt=''className="p-2"/></h5>
     <div  style={{float:'left'}}>
-    <spam className=''style={{fontFamily:'Poppins',fontSize:'30px',lineHeight:'90px'}}>Top Team</spam>
+    <spam className=''style={{fontFamily:'Poppins',fontSize:'30px',lineHeight:'90px',color:'#10265f'}}>Top Team</spam>
     <p className=''style={{fontFamily:'Poppins',fontSize:'20px',lineHeight:'33px',fontWeight:200, letterSpacing:'2%'}}>Your trusted choice for top-notch shipping and logistics services, delivering excellence and exceeding expectations.</p>
-    <span>Know More<KeyboardDoubleArrowRightIcon/></span>
+    <span style={{color:'#10265f'}}>Know More<KeyboardDoubleArrowRightIcon /></span>
     </div>
     </div>
        </div>
        <div className="card pb-3" style={{width: '100%'}}>
   <div className="card-body">
-    <h5 className="card-title"><img src={"./images/productimage.png"} style={{ width: '10%', float: 'left' }}  alt='' /></h5>
+    <h5 className="card-title">< JoinInnerOutlinedIcon style={{ width: '50px',height:'50px',borderRadius:'9px', float: 'left',backgroundColor:'#10265f',color:'white'}}  alt=''className="p-2"/></h5>
     <div  style={{float:'left'}}>
-    <spam className=''style={{fontFamily:'Poppins',fontSize:'30px',lineHeight:'90px'}}>Top Team</spam>
+    <spam className=''style={{fontFamily:'Poppins',fontSize:'30px',lineHeight:'90px',color:'#10265f'}}>Top Team</spam>
     <p className=''style={{fontFamily:'Poppins',fontSize:'20px',lineHeight:'33px',fontWeight:200, letterSpacing:'2%'}}>Your trusted choice for top-notch shipping and logistics services, delivering excellence and exceeding expectations.</p>
-    <span className="">Know More<KeyboardDoubleArrowRightIcon/></span>
+    <span style={{color:'#10265f'}}>Know More<KeyboardDoubleArrowRightIcon /></span>
     </div>
     </div>
-    
        </div>
        </Slider>
         <div className="row">
@@ -87,9 +87,9 @@ export default function Products() {
     
           <div
             className="col-12 col-md-5 mt-5 mb-5 p-5"
-            style={{ backgroundColor: " #3C3A3A" }}
-            data-aos="fade-right"
-     data-aos-easing="linear"
+            style={{backgroundColor:'#10265f' }}
+            data-aos="fade-left"
+     
           >
             <p
               style={{
@@ -101,7 +101,7 @@ export default function Products() {
                
               }}
             >
-              KRIRA
+              Hello Us.
             </p>
             <Form>
               <Form.Group className="mb-3" controlId="formGroupEmail">
@@ -141,7 +141,7 @@ export default function Products() {
                     color: "black",
                   }}
                 >
-                  Send
+                  Book a call
                 </Button>
               </Col>
             </Form>
