@@ -19,7 +19,7 @@ export default function Footer() {
                <a href="#action2"  className='mx-3'style={{fontSize:'15px',color:'white',textDecoration:'none',fontFamily:'Poppins',fontWeight:200}}>Condition of Solution</a>
               <a href="#action3"   className='mx-3' style={{fontSize:'15px',color:'white',textDecoration:'none',fontFamily:'Poppins',fontWeight:200}}>Privacy Notice</a>
               <a href="#action2"  className='mx-3'style={{fontSize:'15px',color:'white',textDecoration:'none',fontFamily:'Poppins',fontWeight:200}}>Intrest-based Ads</a>
-              <a href="#action3"   className='mx-3'style={{fontSize:'15px',color:'white',textDecoration:'none',fontFamily:'Poppins',fontWeight:200}}><CopyrightIcon fontSize='10px'/>2022-2023 , KRIRIA LOGISTICS</a>
+              <a href="#action3"   className='mx-3'style={{fontSize:'15px',color:'white',textDecoration:'none',fontFamily:'Poppins',fontWeight:200}}><CopyrightIcon fontSize='10px'/>2022-2023 , Azmuth</a>
              </div>
         <div className="col-sm-3 col-12  pb-3 col-lg-3 d-flex justify-content-end"id='social-links' >  
             
